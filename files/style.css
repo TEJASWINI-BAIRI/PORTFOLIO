@@ -1163,14 +1163,6 @@ body {
     .layer p {
         line-height: normal;
     }
-    /*service*/
-    .sub-title {
-        font-size: 50px;
-        padding-bottom: 50px;
-    }
-    .prj-list div{
-        padding: 20px;
-    }
     /*contact*/
     .contacts h2{
         font-size: 50px;
@@ -1332,13 +1324,6 @@ body {
     .layer p {
         line-height: normal;
     }
-
-    /*service*/
-    .sub-title {
-        font-size: 50px;
-        padding-bottom: 50px;
-    }
-
     /*contact*/
     .contacts h2{
         font-size: 50px;
