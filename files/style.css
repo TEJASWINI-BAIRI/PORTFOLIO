@@ -390,6 +390,54 @@ body {
     text-decoration-thickness: 5px;
     margin-bottom: 0px;
 }
+.timeline {
+    position: relative;
+    margin: 40px 0;
+    padding-left: 40px;
+    border-left: 2px solid #00ff9f;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: #00ff9f;
+    border-radius: 50%;
+    border: 2px solid #00ff9f;
+}
+
+.timeline-content {
+    background-color: #0a0a0a;
+    border: 2px solid #00ff9f;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 0 15px #00ff9f;
+    transition: transform 0.3s;
+}
+
+.timeline-content:hover {
+    transform: scale(1.02);
+}
+
+.highlight {
+    color: #00ff9f;
+    font-weight: bold;
+}
+
+.timeline-content h3 {
+    margin-top: 0;
+    color: #00ff9f;
+}
+
 
 .bar {
     font-size: 23px;
